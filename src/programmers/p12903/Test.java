@@ -13,7 +13,7 @@ class Solution {
         int len = s.length();
         int middleNumber = len / 2;
 
-        if (s.length() / 2 != 0) {
+        if (s.length() % 2 != 0) {
             return s.substring(middleNumber, middleNumber + 1);
         }
         return s.substring(middleNumber - 1, middleNumber + 1);
