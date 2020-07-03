@@ -9,21 +9,34 @@ package programmers.p12918;
 public class Test {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        System.out.println(solution.solution("123b"));
+        System.out.println(solution.solution("1234"));
     }
 
 }
 class Solution {
     public boolean solution(String s) {
         if (s.length() == 4 || s.length() == 6) {
-            for (int i = 0; i < s.length(); i++) {
-                char c = s.charAt(i);
-                if (c < '0' || c > '9') {
-                    return false;
-                }
+            try {
+                Integer.parseInt(s);
+                return true;
+
+            }catch (NumberFormatException e) {
+                return false;
             }
-            return true;
+        } else {
+            return false;
         }
-        return false;
+
+//
+//        if (s.length() == 4 || s.length() == 6) {
+//            for (int i = 0; i < s.length(); i++) {
+//                char c = s.charAt(i);
+//                if (c < '0' || c > '9') {
+//                    return false;
+//                }
+//            }
+//            return true;
+//        }
+//        return false;
     }
 }
