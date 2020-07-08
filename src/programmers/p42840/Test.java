@@ -12,9 +12,15 @@ class Solution {
         int point3 = 0;
 
         for (int i = 0; i < answers.length; i++) {
-            if (st1[i % st1.length] == answers[i]) point1++;
-            if (st2[i % st2.length] == answers[i]) point2++;
-            if (st3[i % st3.length] == answers[i]) point3++;
+            if (st1[i % st1.length] == answers[i]) {
+                point1++;
+            }
+            if (st2[i % st2.length] == answers[i]) {
+                point2++;
+            }
+            if (st3[i % st3.length] == answers[i]) {
+                point3++;
+            }
         }
 
         int max = Math.max(Math.max(point1, point2), point3);
