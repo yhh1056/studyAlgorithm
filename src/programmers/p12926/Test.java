@@ -9,7 +9,6 @@ public class Test {
     public static void main(String[] args) {
         Solution solution = new Solution();
         solution.solution("x Y", 3);
-        System.out.println(10 % 26);
     }
 }
 
