@@ -33,16 +33,3 @@ class Solution {
         return answer - 1;
     }
 }
-
-//for (int i = 0; i < clothes.length; i++) {
-//        if (hashMap.containsKey(clothes[i][1])) {
-//        list = hashMap.get(clothes[i][1]);
-//        } else {
-//        list = new ArrayList<>();
-//        }
-//        list.add(clothes[i][0]);
-//        hashMap.put(clothes[i][1], list);
-//        }
-//        if (hashMap.size() == 1) {
-//        return hashMap.size();
-//        }
