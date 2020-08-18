@@ -8,15 +8,16 @@ import java.util.NoSuchElementException;
  */
 
 public class LinearQueue implements QueueInterface {
-
-    private int front = 0; // 저장된 원소 중 첫번쨰 원소
-    private int rear = -1; // 저장된 원소 중 마지막 원소
+    private int front; // 저장된 원소 중 첫번쨰 원소
+    private int rear; // 저장된 원소 중 마지막 원소
     private int size;
     private final char[] items;
 
     public LinearQueue(int size) {
         this.size = size;
         this.items = new char[size];
+        this.front = 0;
+        this.rear = -1;
     }
 
     public void add(char item) throws Exception {
