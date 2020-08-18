@@ -55,6 +55,7 @@ public class CircularQueue implements QueueInterface {
         return (rear + 1) % size == front;
     }
 
+    //다양하게 로직 만들 수 있을 것 같음
     public void printQueue() {
         int f = front;
 
