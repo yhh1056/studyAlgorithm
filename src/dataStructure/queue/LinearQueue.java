@@ -118,4 +118,3 @@ public class LinearQueue implements QueueInterface {
         return rear == this.size - 1;
     }
 }
-
