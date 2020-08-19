@@ -1,7 +1,8 @@
 package beakjoon.b10845;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
-import java.util.concurrent.LinkedBlockingDeque;
 
 /**
  문제 : 큐
@@ -21,56 +22,64 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int inputNum = scanner.nextInt();
-        scanner.nextLine();
-        LinkedBlockingDeque<Integer> queue = new LinkedBlockingDeque<>();
+        Queue<Integer> queue = new LinkedList<>();
 
+        int num = 0;
         for (int i = 0 ; i < inputNum; i++) {
-            String input = scanner.nextLine();
-            if (input.contains("push")) {
-                enqueue(queue, input);
-            }
-            if (input.equals("pop")) {
-                System.out.println(dequeue(queue));
-            }
-            if (input.equals("size")) {
-                System.out.println(queue.size());
-            }
-            if (input.equals("empty")) {
-                System.out.println(isEmpty(queue));
-            }
-            if (input.equals("front")) {
-                if (queue.isEmpty()) {
-                    System.out.println(-1);
-                }
-                System.out.println(queue.getFirst());
-            }
-            if (input.equals("back")) {
-                if (queue.isEmpty()) {
-                    System.out.println(-1);
-                }
-                System.out.println(queue.getLast());
+            String input = scanner.next();
+            switch (input) {
+                case "push":
+                    num = scanner.nextInt();
+                    queue.offer(num);
+                    break;
+                case "pop":
+                    System.out.println(pop(queue));
+                    break;
+                case "size":
+                    System.out.println(queue.size());
+                    break;
+                case "empty":
+                    System.out.println(empty(queue));
+                    break;
+                case "front":
+                    System.out.println(front(queue));
+                    break;
+                case "back":
+                    System.out.println(back(queue, num));
+                    break;
             }
         }
     }
 
-    private static int isEmpty(LinkedBlockingDeque<Integer> queue) {
-        if (queue.isEmpty()) {
+    public static int back(Queue<Integer> queue, int num) {
+        if (isEmpty(queue)) {
+            return -1;
+        }
+        return num;
+    }
+
+    public static int front(Queue<Integer> queue) {
+        if (isEmpty(queue)) {
+            return -1;
+        }
+        return queue.peek();
+    }
+
+    public static int empty(Queue<Integer> queue) {
+        if (isEmpty(queue)) {
             return 1;
         }
         return 0;
     }
 
-    public static int dequeue(LinkedBlockingDeque<Integer>queue) {
-        if (queue.size() == 0) {
+    public static int pop(Queue<Integer> queue) {
+        if (isEmpty(queue)) {
             return -1;
         }
         return queue.poll();
     }
 
-    public static void enqueue(LinkedBlockingDeque<Integer> queue, String input) {
-        int num;
-        String[] strings = input.split(" ");
-        num = Integer.parseInt(strings[1]);
-        queue.offer(num);
+    public static boolean isEmpty(Queue<Integer> queue) {
+        return queue.isEmpty();
     }
 }
