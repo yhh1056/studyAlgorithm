@@ -17,19 +17,22 @@ public class Main {
 
         for (int i = 0; i < num; i++) {
             String[] input = scanner.nextLine().split("");
-            for (String s : input) {
-                stack.push(s);
-            }
-            String first = stack.pop();
-            String second = stack.pop();
 
-            if (first.equals(stack.peek())) {
-                count++;
-            }
-            if (second.equals(stack.peek())) {
-                count++;
+            stack.push(input[0]);
+
+            for (int j = 1; j < input.length; j++){
+                if (!stack.isEmpty() && input[j].equals(stack.peek())) {
+                    stack.pop();
+                } else {
+                    stack.push(input[j]);
+                }
             }
 
+            if (stack.size() == 0) {
+                count++;
+            }
+            stack.clear();
         }
+        System.out.println(count);
     }
 }
