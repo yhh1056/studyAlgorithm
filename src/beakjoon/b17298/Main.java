@@ -1,4 +1,4 @@
-package study.b17298;
+package beakjoon.b17298;
 
 import java.io.BufferedReader;
 import java.io.IOException;
