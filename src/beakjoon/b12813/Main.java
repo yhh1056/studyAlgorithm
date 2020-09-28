@@ -19,43 +19,39 @@ public class Main {
         String inputB = br.readLine();
         int len = inputA.length();
 
-        int[] aAndB = new int[len];
-        int[] aOrB = new int[len];
-        int[] aXorB = new int[len];
-        int[] aXor = new int[len];
-        int[] bXor = new int[len];
-
         for (int i = 0; i < len; i++) {
-            a[i] = inputA.charAt(i) - 48;
-            b[i] = inputB.charAt(i) - 48;
+            a[i] = inputA.charAt(i) - '0';
+            b[i] = inputB.charAt(i) - '0';
+        }
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < len; i++) {
+            sb.append(a[i] & b[i]);
         }
 
+        sb.append("\n");
         for (int i = 0; i < len; i++) {
-            aAndB[i] = a[i] & b[i];
-            aOrB[i] = a[i] | b[i];
-            aXorB[i] = a[i] ^ b[i];
-            aXor[i] = a[i] ^ 1;
-            bXor[i] = b[i] ^ 1;
+            sb.append(a[i] | b[i]);
         }
-        for (int i : aAndB) {
-            System.out.print(i);
+
+        sb.append("\n");
+        // A^B
+        for (int i = 0; i < len; i++) {
+            sb.append(a[i] ^ b[i]);
         }
-        System.out.println();
-        for (int i : aOrB) {
-            System.out.print(i);
+
+        sb.append("\n");
+        // ~A
+        for (int i = 0; i < len; i++) {
+            sb.append(a[i] ^ 1);
         }
-        System.out.println();
-        for (int i : aXorB) {
-            System.out.print(i);
+
+        sb.append("\n");
+        // ~B
+        for (int i = 0; i < len; i++) {
+            sb.append(b[i] ^ 1);
         }
-        System.out.println();
-        for (int i : aXor) {
-            System.out.print(i);
-        }
-        System.out.println();
-        for (int i : bXor) {
-            System.out.print(i);
-        }
-        System.out.println();
+
+        sb.append("\n");
+        System.out.println(sb);
     }
 }
