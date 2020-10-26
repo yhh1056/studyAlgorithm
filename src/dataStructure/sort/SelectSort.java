@@ -1,4 +1,4 @@
-package sortPractice;
+package dataStructure.sort;
 
 /**
  * 선택 정렬

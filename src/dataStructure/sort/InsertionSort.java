@@ -1,4 +1,4 @@
-package sortPractice;
+package dataStructure.sort;
 
 /**
  * author {yhh1056}
