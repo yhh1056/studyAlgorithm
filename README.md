@@ -5,7 +5,7 @@
 ### 분류
 
 - **트리**
-    - [4256번 : 트리] (https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b4256/Main.java)
+    - [4256번 : 트리]:https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b4256/Main.java
     - [11725번 : 이진 검색트리] (https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b11725/Main.java)
     - [1191번 : 트리 순회] (https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1191/Main.java)
     - [11425번 : 문자열 집합] (https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b11425/Main.java)
