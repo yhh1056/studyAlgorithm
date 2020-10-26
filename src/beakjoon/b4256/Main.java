@@ -36,7 +36,6 @@ public class Main {
             tree.printPostOrder(tree.root);
             System.out.println();
         }
-
     }
 }
 
@@ -74,28 +73,10 @@ class Tree {
         return node;
     }
 
-//    public void buildTreeByInPost(int in[], int post[]) {
-//        pIndex = post.length - 1;
-//        root = buildTreeByInPost(in, post, 0, in.length - 1);
-//    }
-//
-//    private Node buildTreeByInPost(int[] in, int[] post, int start, int end) {
-//        if (start > end) {
-//            return null;
-//        }
-//        Node node = new Node(post[pIndex--]);
-//        if (start == end) {
-//            return node;
-//        }
-//        int mid = search(in, start, end, node.data);
-//        node.right = buildTreeByInPost(in, post, mid + 1, end);
-//        node.left = buildTreeByInPost(in, post, start, mid - 1);
-//        return node;
-//    }
 
-    private int search(int[] arr, int start, int end, int value) {
+    private int search(int[] inOrder, int start, int end, int value) {
         for (int i = start; i <= end; i++) {
-            if (arr[i] == value) {
+            if (inOrder[i] == value) {
                 return i;
             }
         }
