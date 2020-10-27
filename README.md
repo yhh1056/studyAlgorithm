@@ -1,6 +1,8 @@
 ## BAEKJOON
 
 ---
+- [노션으로 보기](https://www.notion.so/03c795b10797420ca654f43f93e9630d)
+---
 
 ### 분류
 
@@ -78,3 +80,51 @@
     - [2164번 : 카드 2](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2164/Main.java)
     - [1158번 : 요세푸스 문제](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1158/Main.java)
     - [2161번 : 카드1](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2161/Main.java)
+    
+---
+## PROGRAMMERS
+---
+- [노션으로 보기](https://www.notion.so/0230a9147ac84147a0c030ab7d7d0293?v=24ade9eae00a46e3947f93c563b08cfe)
+    
+   ### 문제 이름 
+    - [핸드폰 번호 가리기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12948/Main.java)
+    - [가운데 글자 가리기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12903/Main.java)
+    - [같은 숫자는 싫어](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12906/Main.java)
+    - [문자열 다루기 기본](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12918/Main.java)
+    - [문자열 내 p와 y의 개수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12916/Main.java)
+    - [두 정수 사이의 합](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12912/Main.java)
+    - [나누어 떨어지는 숫자 배열](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12910/Main.java)
+    - [2016년](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12901/Main.java)
+    - [모의고사](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42840/Main.java)
+    - [K번째 수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42748/Main.java)
+    - [체육복](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42862/Main.java)
+    - [문자열 내 마음대로 정렬하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12915/Main.java)
+    - [문자열 내림차순으로 배치하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12917/Main.java)
+    - [시저 암호](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12916/Main.java)
+    - [약수의 합](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12928/Main.java)
+    - [크레인 인형뽑기 게임](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p64061/Main.java)
+    - [이상한 문자 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12930/Main.java)
+    - [자릿수 더하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12931/Main.java)
+    - [자연수 뒤집어 배열로 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12932/Main.java)
+    - [정수 내림차순으로 배치하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12933/Main.java)
+    - [제일 작은 수 제거하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12935/Main.java)
+    - [정수 제곱근 판별](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12934/Main.java)
+    - [최대공약수와 최소공배수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12940/Main.java)
+    - [x만큼 간격이 있는 n개의 숫자](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12954/Main.java)
+    - [행렬의 덧셈](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12950/Main.java)
+    - [예산](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12982/Main.java)
+    - [다리를 지나는 트럭](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers42583/p/Main.java)
+    - [더 맵게](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42626/Main.java)
+    - [전화번호 목록](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42577/Main.java)
+    - [위장](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42578/Main.java)
+    - [기능 개발](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43586/Main.java)
+    - [주식 가격](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42584/Main.java)
+    - [124 나라의 숫자](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12889/Main.java) 
+    - [실패율](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42889/Main.java) 
+    - [스킬 트리](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p49993/Main.java)
+    - [가장 큰 정사각형 찾기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12905/Main.java)
+    - [두개 뽑아서 더하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p68644/Main.java)
+    - [땅따먹기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12913/Main.java) 
+    - [가장 큰 수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42746/Main.java) 
+
+---
