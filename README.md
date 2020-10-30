@@ -6,6 +6,10 @@
 
 ### 분류
 
+- 다익스트라 
+    - [1753번 : 최단경로](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1753/Main.java)
+    - [13549번 : 숨바꼭질3](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b13549/Main.java)
+    - [1261번 : 알고스팟](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1261/Main.java)
 - **트리**
     - [4256번 : 트리](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b4256/Main.java)
     - [11725번 : 이진 검색트리](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b11725/Main.java)
