@@ -47,14 +47,15 @@ public class Main {
                 if (nextX < n && nextY < m && nextX >= 0 && nextY >= 0) {
                     if (!visit[nextX][nextY]) {
                         visit[nextX][nextY] = true;
-                        if (maze[nextX][nextY] == 1) {
-                            count[nextX][nextY] = count[point.x][point.y] + 1;
-                            deque.offer(new Point(nextX, nextY));
 
-                        }
                         if (maze[nextX][nextY] == 0) {
                             count[nextX][nextY] = count[point.x][point.y];
                             deque.addFirst(new Point(nextX, nextY));
+                        }
+
+                        if (maze[nextX][nextY] == 1) {
+                            count[nextX][nextY] = count[point.x][point.y] + 1;
+                            deque.offer(new Point(nextX, nextY));
                         }
                     }
                 }
@@ -68,7 +69,6 @@ class Point {
     int x;
     int y;
     boolean visit;
-    boolean isBlock;
 
     public Point(int x, int y) {
         this.x = x;
