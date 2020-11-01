@@ -35,16 +35,16 @@ public class Main {
                 int parent = Integer.parseInt(st.nextToken());
                 int child = Integer.parseInt(st.nextToken());
 
-                tree[child].add(parent);        // 트리를 거꾸로 담아서 자손부터 역순으로 탐색
+                tree[child].add(parent);
             }
 
             st = new StringTokenizer(br.readLine());
-            int findParent = Integer.parseInt(st.nextToken());
-            int findChild = Integer.parseInt(st.nextToken());
+            int firstChild = Integer.parseInt(st.nextToken());
+            int secondChild = Integer.parseInt(st.nextToken());
 
-            visited[findParent] = true;        // 출발 노드를 정함
-            dfs(findParent);                // 우선 하나의 자손을 통한 깊이 우선 탐색으로 방문 배열에 숫자를 채움
-            dfs(findChild);                // 두번째 깊이 우선 탐색에선 또 다른 자손을 통해 탐색하는데, 방문배열이 0이 아닌경우 해당 노드를 저장하고 바로 종료
+            visited[firstChild] = true;
+            dfs(firstChild);
+            dfs(secondChild);
 
             System.out.println(result);
         }
