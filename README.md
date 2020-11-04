@@ -107,10 +107,10 @@
     - [K번째 수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42748/Test.java)
     - [체육복](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42862/Test.java)
     - [문자열 내 마음대로 정렬하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12915/Test.java)
-    - [문자열 내림차순으로 배치하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12917/Test.java)
+    - [문자열 내림차순으로 배치하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12917/Solution.java)
     - [시저 암호](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12926/Test.java)
     - [약수의 합](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12928/Test.java)
-    - [크레인 인형뽑기 게임](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p64061/Test.java)
+    - [크레인 인형뽑기 게임](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p64061/Solution.java)
     - [이상한 문자 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12930/Test.java)
     - [자릿수 더하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12931/Test.java)
     - [자연수 뒤집어 배열로 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12932/Test.java)
@@ -137,4 +137,5 @@
     - [1차 다트 게임](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p17682/Test.java)
     - [올바른 괄호](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12909/Main.java)
     - [오픈채팅방](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p142888/Main.java)
+    - [비밀지도](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p17681/Solution.java)
 ---
