@@ -139,4 +139,5 @@
     - [오픈채팅방](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p142888/Main.java)
     - [비밀지도](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p17681/Solution.java)
     - [문자열 압축](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p60057/Solution.java)
+    - [JadenCase 문자열 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12951/Solution.java)
 ---
