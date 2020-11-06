@@ -8,6 +8,7 @@
 
 - 문자열
     - [1747번 : 소수&팰린드롬](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1747/Main.java)
+    - [9251번 : LCS](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b9251/Main.java)
 
 - 다익스트라 
     - [1753번 : 최단경로](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1753/Main.java)
