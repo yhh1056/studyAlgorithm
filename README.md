@@ -8,6 +8,7 @@
 
 - 벨만포드
     - [11657번 : 타임머신](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b11657/Main.java)
+    - [1865번 : 웜홀](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1865/Main.java)
 
 - 문자열
     - [1747번 : 소수&팰린드롬](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1747/Main.java)
