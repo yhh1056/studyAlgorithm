@@ -97,6 +97,12 @@
     - [1158번 : 요세푸스 문제](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1158/Main.java)
     - [2161번 : 카드1](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2161/Main.java)
     
+- 재귀
+    - [5568번 : 카드 놓기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b5568/Main.java)
+    - [9095번 : 1,2,3 더하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b9095/Main.java)
+    - [9742번 : 순열](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b9742/Main.java)
+    - [10870번 : 피보나치 수 5](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10870/Main.java)
+    - [10872번 : 팩토리얼](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10872/Main.java)
 ---
 ## PROGRAMMERS
 ---
