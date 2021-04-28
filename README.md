@@ -103,6 +103,8 @@
     - [9742번 : 순열](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b9742/Main.java)
     - [10870번 : 피보나치 수 5](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10870/Main.java)
     - [10872번 : 팩토리얼](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10872/Main.java)
+    - [1780번 : 종이의 개수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10870/Main.java)
+    - [2630번 : 색종이 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10872/Main.java)
 ---
 ## PROGRAMMERS
 ---
