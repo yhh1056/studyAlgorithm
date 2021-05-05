@@ -157,4 +157,5 @@
     - [문자열 압축](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p60057/Solution.java)
     - [JadenCase 문자열 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12951/Solution.java)
     - [이중 우선순위 큐](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42628/Solution.java)
+    - [타켓 넘버](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43165/Solution.java)
 ---
