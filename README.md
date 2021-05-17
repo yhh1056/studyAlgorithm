@@ -1,9 +1,5 @@
 ## BAEKJOON
 
----
-- [노션으로 보기](https://www.notion.so/03c795b10797420ca654f43f93e9630d)
----
-
 ### 분류
 
 - 벨만포드
@@ -158,4 +154,8 @@
     - [JadenCase 문자열 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12951/Solution.java)
     - [이중 우선순위 큐](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42628/Solution.java)
     - [타켓 넘버](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43165/Solution.java)
+    - [큰 수 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42883/Solution.java)
+    - [구명보트](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42885/Solution.java)
+    - [단속카메라](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42884/Solution.java)
+
 ---
