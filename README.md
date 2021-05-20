@@ -158,5 +158,6 @@
     - [구명보트](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42885/Solution.java)
     - [단속카메라](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42884/Solution.java)
     - [N으로 표현](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42895/Solution.java)
+    - [단속카메라](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42884/Solution.java)
 
 ---
