@@ -103,8 +103,8 @@
     - [2630번 : 색종이 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10872/Main.java)
 ---
 ## PROGRAMMERS
----
-- [노션으로 보기](https://www.notion.so/0230a9147ac84147a0c030ab7d7d0293?v=24ade9eae00a46e3947f93c563b08cfe)
+
+-
     
    ### 문제 이름 
     - [핸드폰 번호 가리기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p12948/Test.java)
@@ -158,10 +158,10 @@
     - [구명보트](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42885/Solution.java)
     - [단속카메라](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42884/Solution.java)
     - [N으로 표현](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42895/Solution.java)
-    - [단속카메라](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42884/Solution.java)
     - [정수삼각형](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43105/Solution.java)
     - [네트워크](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43162/Solution.java)
     - [단어변환](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43163/Solution.java)
     - [등굣길](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42898/Solution.java)
+    - [입국심사](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43283/Solution.java)
 
 ---
