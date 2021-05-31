@@ -104,7 +104,7 @@
 
 - 이분탐색
     - [2110번 : 공유기 설치](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b2110/Main.java)
-
+    - [1654번 : 랜선 자르기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b1654/Main.java)
 ---
 ## PROGRAMMERS
 
