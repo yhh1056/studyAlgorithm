@@ -102,6 +102,7 @@
     - [10872번 : 팩토리얼](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10872/Main.java)
     - [1780번 : 종이의 개수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10870/Main.java)
     - [2630번 : 색종이 만들기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b10872/Main.java)
+    - [16953번 : 숫자 재배치](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b16943/Main.java)
 
 - 이분탐색
     - [2110번 : 공유기 설치](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2110/Main.java)
