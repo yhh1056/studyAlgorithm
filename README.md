@@ -177,4 +177,5 @@
     - [등굣길](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42898/Solution.java)
     - [입국심사](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43283/Solution.java)
     - [여행경로](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43164/Solution.java)
+    - [프린터](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42587/Solution.java)
 ---
