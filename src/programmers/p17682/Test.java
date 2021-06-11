@@ -32,16 +32,24 @@ class Solution {
                 count++;
             } else {
                 switch (strings[i]) {
-                    case "S" -> score[count - 1] = number;
-                    case "D" -> score[count - 1] = (int) Math.pow(number, 2);
-                    case "T" -> score[count - 1] = (int) Math.pow(number, 3);
-                    case "*" -> {
+                    case "S":
+                        score[count - 1] = number;
+                        break;
+                    case "D":
+                        score[count - 1] = (int) Math.pow(number, 2);
+                        break;
+                    case "T":
+                        score[count - 1] = (int) Math.pow(number, 3);
+                        break;
+                    case "*":
                         if (count > 1) {
                             score[count - 2] *= 2;
                         }
                         score[count - 1] *= 2;
-                    }
-                    case "#" -> score[count - 1] *= -1;
+                        break;
+                    case "#":
+                        score[count - 1] *= -1;
+                        break;
                 }
             }
 

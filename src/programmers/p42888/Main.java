@@ -30,12 +30,16 @@ public class Main {
             String name = info[2];
 
             switch (userStatus) {
-                case "Enter" -> {
+                case "Enter":
                     hashMap.put(id, name);
                     enterAndLeaveCount++;
-                }
-                case "Leave" -> enterAndLeaveCount++;
-                case "Change" -> hashMap.put(id, name);
+                    break;
+                case "Leave":
+                    enterAndLeaveCount++;
+                    break;
+                case "Change":
+                    hashMap.put(id, name);
+                    break;
             }
         }
         answer = new String[enterAndLeaveCount];
