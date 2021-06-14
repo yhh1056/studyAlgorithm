@@ -58,6 +58,7 @@
     - [2231번 : 분해합](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2231/Main.java)
     - [9094번 : 수학적호기심](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b9094/Main.java)
     - [4690번 : 완전 세제곱](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b4690/Main.java)
+    - [17779번 : 게리멘더링 2](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b17779/Main.java)
 
 - DP
     - [16395번 : 파스칼 삼각형](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b16395/Main.java)
