@@ -184,4 +184,5 @@
     - [여행경로](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43164/Solution.java)
     - [프린터](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42587/Solution.java)
     - [가장먼노드](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p49189/Main.java)
+    - [기능개발](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42586/Main.java)
 ---
