@@ -46,6 +46,7 @@
     - [4963번 : 섬의 개수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b4963/Main.java)
     - [17088번 : 등차수열 반환](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b17088/Main.java)
     - [16985번 : Maaaaaaaaaze](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b16985/Main.java)
+    - [7569번 : 토마토](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b7569/Main.java)
 
 - 완전탐색
     - [14889번 : 스타트와 링크](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b14889/Main.java)
