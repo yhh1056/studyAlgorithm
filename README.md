@@ -45,6 +45,7 @@
     - [2178번 : 미로 탐색](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2178/Main.java)
     - [4963번 : 섬의 개수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b4963/Main.java)
     - [17088번 : 등차수열 반환](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b17088/Main.java)
+    - [16985번 : Maaaaaaaaaze](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b16985/Main.java)
 
 - 완전탐색
     - [14889번 : 스타트와 링크](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b14889/Main.java)
@@ -110,10 +111,10 @@
     - [2110번 : 공유기 설치](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2110/Main.java)
     - [1654번 : 랜선 자르기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1654/Main.java)
 
--- 리스트
+- 리스트
     - [5397번 : 키로거](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b16917/Main.java)
 
--- 시뮬레이션
+- 시뮬레이션
     - [16917번 : 양념반 후라이드반](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon2/recursion/b5397/Main.java)
 
 ---
