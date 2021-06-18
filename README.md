@@ -49,6 +49,7 @@
     - [16985번 : Maaaaaaaaaze](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b16985/Main.java)
     - [7569번 : 토마토](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b7569/Main.java)
     - [15686번 : 치킨 배달](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b15686/Main.java)
+    - [2606번 : 바이러스](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2606/Main.java)
 
 - 완전탐색
     - [14889번 : 스타트와 링크](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b14889/Main.java)
