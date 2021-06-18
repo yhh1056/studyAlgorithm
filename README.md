@@ -26,6 +26,7 @@
     - [9372번 : 상근이의 여행](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b9372/Main.java)
     - [5052번 : 전화번호 목록](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b5052/Main.java)
     - [3584번 : 가장 가까운 공통 조상](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b3584/Main.java)
+    - [1197번 : 최소 스패닝 트리](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1197/Main.java)
 
 - 투포인터
     - [2096번 : 내려가기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2096/Main.java)
