@@ -1,91 +1,109 @@
 package beakjoon.b1753;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-import static java.lang.Integer.MAX_VALUE;
-
 /**
  * 최단경로
- * author {yhh1056}
- * Create by {2020/10/30}
+ * 다익스트라
+ *
  */
 public class Main {
-    static int INF = MAX_VALUE;
-    static ArrayList<Node>[] list;
+
+    static int[] dist;
+    static List<Node>[] nodes;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int vertex = Integer.parseInt(st.nextToken());
-        int edge = Integer.parseInt(st.nextToken());
 
-        list = new ArrayList[vertex + 1];
-        int[] result = new int[vertex + 1];
-
-        for (int i = 1; i <= vertex; i++) {
-            list[i] = new ArrayList<>();
-        }
-
-        Arrays.fill(result, INF);
-
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
         int start = Integer.parseInt(br.readLine());
-        for (int i = 0; i < edge; i++) {
-            st = new StringTokenizer(br.readLine());
-            int u = Integer.parseInt(st.nextToken());
-            int v = Integer.parseInt(st.nextToken());
-            int w = Integer.parseInt(st.nextToken());
-            list[u].add(new Node(v, w));
+
+        dist = new int[N + 1];
+        nodes = new ArrayList[N + 1];
+
+        Arrays.fill(dist, Integer.MAX_VALUE);
+
+        for (int i = 1; i <= N; i++) {
+            nodes[i] = new ArrayList<>();
         }
-        result[start] = 0;
 
-        PriorityQueue<Node> pQueue = new PriorityQueue<>();
-        pQueue.add(new Node(start, 0));
+        for (int i = 0; i < M; i++) {
+            st = new StringTokenizer(br.readLine());
+            int v = Integer.parseInt(st.nextToken());
+            int nV = Integer.parseInt(st.nextToken());
+            int w = Integer.parseInt(st.nextToken());
 
-        while (!pQueue.isEmpty()) {
-            Node node = pQueue.poll();
+            nodes[v].add(new Node(nV, w));
+        }
 
-            if (result[node.v] >= node.w) {
-                for (int i = 0; i < list[node.v].size(); i++) {
-                    int tmpIndex = list[node.v].get(i).v;
-                    int tmpDist = node.w + list[node.v].get(i).w;
+        PriorityQueue<Node> queue = new PriorityQueue<>();
+        queue.add(new Node(start, 0));
 
-                    if (result[tmpIndex] > tmpDist) {
-                        result[tmpIndex] = tmpDist;
-                        pQueue.add(new Node(tmpIndex, tmpDist));
+        dist[start] = 0;
+
+        while (!queue.isEmpty()) {
+            Node poll = queue.poll();
+
+            int nextV = poll.nextV;
+            int weight = poll.weight;
+
+            if (dist[nextV] >= weight) {
+                for (int i = 0; i < nodes[nextV].size(); i++) {
+                    Node nextNode = nodes[nextV].get(i);
+
+                    if (dist[nextNode.nextV] > nextNode.weight + weight) {
+                        dist[nextNode.nextV] = nextNode.weight + weight;
+                        queue.offer(new Node(nextNode.nextV, nextNode.weight + weight));
+                    }
+                }
+            }
+
+            if (dist[nextV] >= weight) {
+                for (int i = 0; i < nodes[nextV].size(); i++) {
+                    Node nextNode = nodes[nextV].get(i);
+
+                    int v = nextNode.nextV;
+                    int w = weight + nodes[nextV].get(i).weight;
+
+                    if (dist[nextNode.nextV] > weight + nextNode.weight) {
+                        dist[nextNode.nextV] = weight + nextNode.weight;
+                        queue.offer(new Node(v, w));
                     }
                 }
             }
         }
 
-        for (int i = 1; i <= vertex; i++) {
-            if (result[i] == MAX_VALUE)
+        for (int i = 1; i <= N; i++) {
+            if (dist[i] == Integer.MAX_VALUE) {
                 System.out.println("INF");
-            else {
-                System.out.println(result[i]);
+            } else {
+                System.out.println(dist[i]);
             }
         }
     }
+}
 
+class Node implements Comparable<Node> {
 
-    public static class Node implements Comparable<Node> {
-        int v;
-        int w;
+    int nextV;
+    int weight;
 
-        public Node(int v, int val) {
-            this.v = v;
-            this.w = val;
-        }
+    public Node(int nextV, int weight) {
+        this.nextV = nextV;
+        this.weight = weight;
+    }
 
-        @Override
-        public int compareTo(Node o) {
-            if (this.w > o.w)
-                return 1;
-            return 0;
-        }
-
+    @Override
+    public int compareTo(Node o) {
+        return this.weight - o.weight;
     }
 }
