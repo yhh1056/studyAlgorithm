@@ -12,6 +12,7 @@
     - [9251번 : LCS](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b9251/Main.java)
     - [10610번 : 30](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b10610/Main.java)
     - [1120번 : 문자열](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1120/Main.java)
+    - [1120번 : LCS2](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b9252/Main.java)
 
 - 다익스트라 
     - [1753번 : 최단경로](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1753/Main.java)
@@ -184,7 +185,7 @@
     - [등굣길](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42898/Solution.java)
     - [입국심사](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43283/Solution.java)
     - [여행경로](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p43164/Solution.java)
-    - [프린터](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42587/Solution.java)
+    - [프린터](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42587/Main.java)
     - [가장먼노드](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p49189/Main.java)
     - [기능개발](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42586/Main.java)
     - [섬 연결하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p42861/Main.java)
