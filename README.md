@@ -199,6 +199,7 @@
 
   ### 2021 상반기 공채
   - [1번](https://github.com/yhh1056/studyAlgorithm/blob/master/src/kakao/tet2021/Solution1.java)
+  - [메뉴 리뉴얼](https://github.com/yhh1056/studyAlgorithm/blob/master/src/kakao/tet2021/Solution2.java)
 
   ### 2017 카카오 예선
   - [카카오 프렌즈 컬리링북](https://github.com/yhh1056/studyAlgorithm/blob/master/src/kakao/tet2017/Solution1.java)
