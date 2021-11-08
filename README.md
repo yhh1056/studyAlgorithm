@@ -74,6 +74,7 @@
     - [2839번 : 설탕 배달](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b2839/Main.java)
     - [14967번 : 방 배정하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b14967/Main.java)
     - [1003번 : 피보나치 함수](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1003/Main.java)
+    - [97390 : n ^ 2 배열 자르기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/p87390/Main.java)
 
 - 정렬
     - [13164 : 행복유치원](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b13164/Main.java)
