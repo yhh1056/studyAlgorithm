@@ -13,7 +13,7 @@
     - [10610번 : 30](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b10610/Main.java)
     - [1120번 : 문자열](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1120/Main.java)
     - [1120번 : LCS2](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b9252/Main.java)
-    - [1120번 : LCS2](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p76502/Main.java)
+    - [1120번 : 괄호 회전하기](https://github.com/yhh1056/studyAlgorithm/blob/master/src/programmers/p76502/Main.java)
 
 - 다익스트라 
     - [1753번 : 최단경로](https://github.com/yhh1056/studyAlgorithm/blob/master/src/beakjoon/b1753/Main.java)
