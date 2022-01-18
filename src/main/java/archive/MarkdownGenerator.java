@@ -93,7 +93,7 @@ public class MarkdownGenerator {
     }
 
     private String parse(final Class<?> clazz, final String packageName) {
-        return MessageFormat.format("https://github.com/{0}/{1}/blob/main/src/{2}/{3}/{4}.java",
+        return MessageFormat.format("https://github.com/{0}/{1}/blob/main/src/{2}/java/{3}/{4}.java",
             githubConfig.getUsername(),
             githubConfig.getRepositoryName(),
             githubConfig.getMainBranch(),
