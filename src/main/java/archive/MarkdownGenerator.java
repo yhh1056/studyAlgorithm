@@ -33,6 +33,7 @@ public class MarkdownGenerator {
         File file = new File("solved.md");
         try (FileOutputStream stream = new FileOutputStream(file)) {
             stream.write("## 백준".getBytes());
+            stream.write("\n".getBytes());
             stream.write("|번호|제목|난이도|풀이|주소|".getBytes());
             stream.write("\n".getBytes());
             stream.write("|---|---|---|---|---|".getBytes());
@@ -44,6 +45,7 @@ public class MarkdownGenerator {
             }
 
             stream.write("## 프로그래머스".getBytes());
+            stream.write("\n".getBytes());
             stream.write("|번호|제목|난이도|풀이|주소|".getBytes());
             stream.write("\n".getBytes());
             stream.write("|---|---|---|---|---|".getBytes());
@@ -91,7 +93,7 @@ public class MarkdownGenerator {
     }
 
     private String parse(final Class<?> clazz, final String packageName) {
-        return MessageFormat.format("https://github.com/{0}/{1}/blob/{2}/{3}/{4}.java",
+        return MessageFormat.format("https://github.com/{0}/{1}/blob/main/src/{2}/{3}/{4}.java",
             githubConfig.getUsername(),
             githubConfig.getRepositoryName(),
             githubConfig.getMainBranch(),
