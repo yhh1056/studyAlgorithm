@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group 'studyAlgorithm'
+version '1.0-SNAPSHOT'
+
+allprojects {
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.github.yhh1056:y-algo:v0.0.1-alpha'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+test {
+    useJUnitPlatform()
+}
