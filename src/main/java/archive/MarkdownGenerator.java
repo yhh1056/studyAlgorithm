@@ -40,7 +40,7 @@ public class MarkdownGenerator {
             stream.write("\n".getBytes());
             for (BaekjoonProblem problem : baekjoonProblems) {
                 stream.write(MessageFormat.format("|{0}|{1}|{2}|[풀이]({3})|{4}|",
-                    problem.getNumber(), problem.getName(), problem.getLevel(), problem.getLocation(), problem.getUrl()).getBytes());
+                    String.valueOf(problem.getNumber()), problem.getName(), problem.getLevel(), problem.getLocation(), problem.getUrl()).getBytes());
                 stream.write("\n".getBytes());
             }
 
@@ -52,7 +52,7 @@ public class MarkdownGenerator {
             stream.write("\n".getBytes());
             for (ProgrammersProblem problem : programmersProblems) {
                 stream.write(MessageFormat.format("|{0}|{1}|{2}|[풀이]({3})|{4}|",
-                    problem.getNumber(), problem.getName(), problem.getLevel(), problem.getLocation(), problem.getUrl()).getBytes());
+                    String.valueOf(problem.getNumber()), problem.getName(), problem.getLevel(), problem.getLocation(), problem.getUrl()).getBytes());
                 stream.write("\n".getBytes());
             }
         } catch (IOException e) {
