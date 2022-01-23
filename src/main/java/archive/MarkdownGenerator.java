@@ -30,7 +30,7 @@ public class MarkdownGenerator {
     }
 
     private void write(final List<BaekjoonProblem> baekjoonProblems, List<ProgrammersProblem> programmersProblems) {
-        File file = new File("solved.md");
+        File file = new File("README.md");
         try (FileOutputStream stream = new FileOutputStream(file)) {
             stream.write("## 백준".getBytes());
             stream.write("\n".getBytes());
