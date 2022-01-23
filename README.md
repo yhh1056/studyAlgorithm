@@ -1,6 +1,7 @@
 ## 백준
 |번호|제목|난이도|풀이|주소|
 |---|---|---|---|---|
+|1446|지름길|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b1446/Main.java)|https://www.acmicpc.net/problem/1446|
 |1743|음식물 피하기|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b1743/Main.java)|https://www.acmicpc.net/problem/1743|
 |2564|경비원|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b2564/Main.java)|https://www.acmicpc.net/problem/2564|
 |14719|빗물|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b14719/Main.java)|https://www.acmicpc.net/problem/14719|
