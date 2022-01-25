@@ -1,13 +1,13 @@
 package baekjoon.b2564;
 
-import archive.provider.baekjoon.Baekjoon;
-import archive.provider.baekjoon.BaekjoonLevel;
+import archive.algorithm.archive.provider.baekjoon.Baekjoon;
+import archive.algorithm.archive.provider.baekjoon.BaekjoonLevel;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-@Baekjoon(name = "경비원", url = "https://www.acmicpc.net/problem/2564", level = BaekjoonLevel.SILVER, number = 2564)
+@Baekjoon(number = 2564, level = BaekjoonLevel.SILVER)
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

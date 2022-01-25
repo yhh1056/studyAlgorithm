@@ -1,4 +1,4 @@
-package archive.provider.baekjoon;
+package archive.algorithm.archive.provider.baekjoon;
 
 public enum BaekjoonLevel {
     UNDEFINED,

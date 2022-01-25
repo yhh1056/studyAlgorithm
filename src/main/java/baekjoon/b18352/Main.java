@@ -1,7 +1,7 @@
 package baekjoon.b18352;
 
-import archive.provider.baekjoon.Baekjoon;
-import archive.provider.baekjoon.BaekjoonLevel;
+import archive.algorithm.archive.provider.baekjoon.Baekjoon;
+import archive.algorithm.archive.provider.baekjoon.BaekjoonLevel;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-@Baekjoon(name = "특정 거리의 도시 찾기", url = "https://www.acmicpc.net/problem/18352", level = BaekjoonLevel.SILVER, number = 18352)
+@Baekjoon(number = 18352, level = BaekjoonLevel.SILVER)
 public class Main {
     static int N;
     static int M;

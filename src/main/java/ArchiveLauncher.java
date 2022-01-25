@@ -1,10 +1,17 @@
-import archive.GithubConfig;
-import archive.MarkdownGenerator;
+import archive.algorithm.archive.GithubConfig;
+import archive.algorithm.file.DefaultBaekjoonMarkdownGenerator;
+import archive.algorithm.file.MarkdownGenerator;
 
 public class ArchiveLauncher {
     public static void main(String[] args) {
-        GithubConfig config = new GithubConfig("yhh1056", "studyAlgorithm", "main");
-        MarkdownGenerator generator = new MarkdownGenerator(config);
-        generator.generate();
+        GithubConfig config = new GithubConfig("yhh1056", "repo", "main");
+        ArchiveLauncher launcher = new ArchiveLauncher();
+        launcher.run(new DefaultBaekjoonMarkdownGenerator(config));
+    }
+
+    public void run(MarkdownGenerator... generators) {
+        for (MarkdownGenerator generator : generators) {
+            generator.generate();
+        }
     }
 }

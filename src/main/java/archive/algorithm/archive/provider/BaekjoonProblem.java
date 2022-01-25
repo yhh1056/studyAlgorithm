@@ -1,6 +1,6 @@
-package archive.provider;
+package archive.algorithm.archive.provider;
 
-import archive.provider.baekjoon.BaekjoonLevel;
+import archive.algorithm.archive.provider.baekjoon.BaekjoonLevel;
 import java.util.Objects;
 
 public class BaekjoonProblem implements Comparable<BaekjoonProblem> {

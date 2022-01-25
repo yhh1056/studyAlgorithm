@@ -1,7 +1,7 @@
 package baekjoon.b1743;
 
-import archive.provider.baekjoon.Baekjoon;
-import archive.provider.baekjoon.BaekjoonLevel;
+import archive.algorithm.archive.provider.baekjoon.Baekjoon;
+import archive.algorithm.archive.provider.baekjoon.BaekjoonLevel;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,7 +9,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-@Baekjoon(name = "음식물 피하기", url = "https://www.acmicpc.net/problem/1743", level = BaekjoonLevel.SILVER, number = 1743)
+@Baekjoon(number = 1743, level = BaekjoonLevel.SILVER)
 public class Main {
     static int[] moveX = new int[] {0, 0, 1, -1};
     static int[] moveY = new int[] {1, -1, 0, 0};

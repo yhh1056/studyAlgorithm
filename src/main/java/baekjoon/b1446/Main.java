@@ -1,14 +1,14 @@
 package baekjoon.b1446;
 
-import archive.provider.baekjoon.Baekjoon;
-import archive.provider.baekjoon.BaekjoonLevel;
+import archive.algorithm.archive.provider.baekjoon.Baekjoon;
+import archive.algorithm.archive.provider.baekjoon.BaekjoonLevel;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
-@Baekjoon(name = "지름길", url = "https://www.acmicpc.net/problem/1446", level = BaekjoonLevel.SILVER, number = 1446)
+@Baekjoon(number = 1446, level = BaekjoonLevel.SILVER)
 public class Main {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

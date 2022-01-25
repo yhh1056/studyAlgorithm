@@ -1,12 +1,10 @@
+
 ## 백준
 |번호|제목|난이도|풀이|주소|
 |---|---|---|---|---|
-|1446|지름길|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b1446/Main.java)|https://www.acmicpc.net/problem/1446|
-|1743|음식물 피하기|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b1743/Main.java)|https://www.acmicpc.net/problem/1743|
-|2564|경비원|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b2564/Main.java)|https://www.acmicpc.net/problem/2564|
-|14719|빗물|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b14719/Main.java)|https://www.acmicpc.net/problem/14719|
-|17086|아기 상어2|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b17086/Main.java)|https://www.acmicpc.net/problem/17086|
-|18352|특정 거리의 도시 찾기|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/src/main/java/baekjoon/b18352/Main.java)|https://www.acmicpc.net/problem/18352|
-## 프로그래머스
-|번호|제목|난이도|풀이|주소|
-|---|---|---|---|---|
+|1446|지름길|SILVER|[풀이](https://github.com/yhh1056/repo/blob/main/baekjoon/b1446/Main.java)|https://www.acmicpc.net/problem/1446|
+|1743|음식물|SILVER|[풀이](https://github.com/yhh1056/repo/blob/main/baekjoon/b1743/Main.java)|https://www.acmicpc.net/problem/1743|
+|2564|경비원|SILVER|[풀이](https://github.com/yhh1056/repo/blob/main/baekjoon/b2564/Main.java)|https://www.acmicpc.net/problem/2564|
+|14719|빗물|GOLD|[풀이](https://github.com/yhh1056/repo/blob/main/baekjoon/b14719/Main.java)|https://www.acmicpc.net/problem/14719|
+|17086|아기|SILVER|[풀이](https://github.com/yhh1056/repo/blob/main/baekjoon/b17086/Main.java)|https://www.acmicpc.net/problem/17086|
+|18352|특정|SILVER|[풀이](https://github.com/yhh1056/repo/blob/main/baekjoon/b18352/Main.java)|https://www.acmicpc.net/problem/18352|
