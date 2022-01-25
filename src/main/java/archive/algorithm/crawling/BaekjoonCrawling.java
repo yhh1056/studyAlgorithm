@@ -1,9 +1,9 @@
 package archive.algorithm.crawling;
 
 import java.io.IOException;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
@@ -13,7 +13,7 @@ public class BaekjoonCrawling {
     private static final String SOLVED_URL = "https://solved.ac/search?query=";
     private static final String DIV_CSS = "div.StickyTable__Table-sc-45ty5n-0";
 
-    private static final Queue<String> queue = new LinkedList<>();
+    private static final Set<String> problemName = new LinkedHashSet<>();
 
     private BaekjoonCrawling() {}
 
@@ -23,21 +23,28 @@ public class BaekjoonCrawling {
         try {
             Elements elements = connect.get().select(DIV_CSS);
             for (Element element : elements) {
-                Collections.addAll(queue, element.select("span").text().split(" "));
+                problemName.addAll(Arrays.asList(element.select("span").text().split(" ")));
+                if (!problemName.isEmpty()) {
+                    title = "";
+                }
 
-                while (!queue.isEmpty()) {
-                    String name = queue.poll();
-                    if (name.equals(String.valueOf(number))) {
-                        queue.poll();
-                        return queue.poll();
+                boolean tag = true;
+                for (String name : problemName) {
+                    if (tag) {
+                        tag = false;
+                    } else {
+                        if (name.equals("STANDARD") || name.chars().allMatch(Character::isDigit)) {
+                            break;
+                        }
+                        title += name + " ";
                     }
                 }
             }
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            queue.clear();
+            problemName.clear();
         }
-        return title;
+        return title.trim();
     }
 }
