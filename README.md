@@ -3,6 +3,7 @@
 |번호|제목|난이도|풀이|주소|
 |---|---|---|---|---|
 |1446|지름길|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b1446/Main.java)|https://www.acmicpc.net/problem/1446|
+|1584|게임|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b1584/Main.java)|https://www.acmicpc.net/problem/1584|
 |1743|음식물 피하기|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b1743/Main.java)|https://www.acmicpc.net/problem/1743|
 |1753|최단경로|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b1753/Main.java)|https://www.acmicpc.net/problem/1753|
 |1916|최소비용 구하기|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b1916/Main.java)|https://www.acmicpc.net/problem/1916|
