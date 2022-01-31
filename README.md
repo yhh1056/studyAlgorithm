@@ -11,6 +11,7 @@
 |2564|경비원|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b2564/Main.java)|https://www.acmicpc.net/problem/2564|
 |4485|녹색 옷 입은 애가 젤다지?|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b4485/Main.java)|https://www.acmicpc.net/problem/4485|
 |5972|택배 배송|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b5972/Main.java)|https://www.acmicpc.net/problem/5972|
+|6087|레이저 통신|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b6087/Main.java)|https://www.acmicpc.net/problem/6087|
 |14496|그대, 그머가 되어|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b14496/Main.java)|https://www.acmicpc.net/problem/14496|
 |14719|빗물|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b14719/Main.java)|https://www.acmicpc.net/problem/14719|
 |17086|아기 상어|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b17086/Main.java)|https://www.acmicpc.net/problem/17086|
