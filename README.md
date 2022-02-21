@@ -17,3 +17,5 @@
 |14719|빗물|GOLD|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b14719/Main.java)|https://www.acmicpc.net/problem/14719|
 |17086|아기 상어|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b17086/Main.java)|https://www.acmicpc.net/problem/17086|
 |18352|특정 거리의 도시 찾기|SILVER|[풀이](https://github.com/yhh1056/studyAlgorithm/blob/main/baekjoon/b18352/Main.java)|https://www.acmicpc.net/problem/18352|
+
+슬랙 연동 테스트
